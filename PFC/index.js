@@ -31,7 +31,7 @@ formattedMonth();
 
 let now = `${day}/${month}/${year}`
 
-document.querySelector("#date").textContent = `Aujourd'hui nous somme le: ${now}`;
+document.querySelector("#date").textContent = `Aujourd'hui nous sommes le: ${now}`;
 
 
 
@@ -85,13 +85,30 @@ for(let i = 0; i < boxAcceuil.length; i++) {
 };
 
 
-fetch('https://pokeapi.co/api/v2/?limit=15&offset=20/')
-.then(response => response.json)
-.then(data => {
-    console.log(data);
+
+// Affichage du descriptif des formations par mouse over 
+
+const boxFormation = document.querySelectorAll(".boxFormation")
+
+for(let i = 0; i < boxFormation.length; i++) {
     
-    return data;
-});
+        boxFormation[i].addEventListener('mouseover', 
+            function() {
+                document.querySelectorAll('.description')[i].style.display = 'flex';
+                
+
+            }
+        );
+        
+        boxFormation[i].addEventListener('mouseleave', 
+            function() {
+                document.querySelectorAll('.description')[i].style.display = 'none';
+
+            }
+
+        );
+};
+
 
 
 

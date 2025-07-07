@@ -184,6 +184,57 @@ span.mini-title {
 
 }
 
+#container-formation {
+    height: 80vh;
+    margin: 30px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 2px solid rgb(55, 55, 194);
+    border-bottom: 2px solid rgb(55, 55, 194);
+    transition-duration: 1s;
+}
 
+.fleche-droite > img{
+    height: 15vh;
+    width: 15vh;
+    padding-top: 3vh;
+}
 
+.boxFormation {
+    border: 5px solid rgb(55, 55, 194);
+    padding: 6vh;
+    border-radius: 20vh;
+    
+
+}
+
+.boxFormation > .ecole {
+    font-weight: 800;
+    font-style: normal;
+    color: rgb(55, 55, 194);
+    font-size: 100%;
+}
+
+.boxFormation > h6 {
+    color: rgb(55, 55, 194);
+    font-size: 80%;
+
+}
+
+.boxFormation > h6 >span {
+    font-style: italic;
+    font-size: 75%;
+}
+
+.description {
+    padding: 3%;
+    text-align: left;
+    font-style: italic;
+    font-size: 75%;
+    color: rgb(55, 55, 194);
+    display: none;
+}
 
