@@ -11,146 +11,211 @@
 </head>
 
 <body>
-    <section class="top-page">
 
-        <div class="header">
-
-            
-            <img class="logo" src="/PFC/Images/logo.png" alt="Logo Romain Sales">
-            
-
-            
-            <p id="date"></p>
-            
-
-           
-            <h3 class="nom">Romain Sales</h3>
-            
-
+    <header class="header-main">
+        <div class="hader-left">
+           <div class="header-title">
+                <h1>Portofolio Romain Sales</h1>
+                <h2>Developpeur Web en alternance</h2>
+           </div>
         </div>
+        <div class="header-right">
+            <img id="logo" src="Images/logo-PFC.png" alt="logo Romain Sales">
+        </div>
+    </header>
 
-       
 
-        <div class="landing-page">
-            <div class="photo">
-                <img src="/PFC/Images/4B1DCD64-3637-4164-9EBC-FF0550FE168B.JPG" alt="Photo Romain Sales">
+
+    <div class="container-top-page">
+
+        <div class="profile-box">
+            <img id="profile-picture" src="Images/4B1DCD64-3637-4164-9EBC-FF0550FE168B.JPG" alt="Photo de profil Romain Sales">
+            <div class="txt-content">
+                <h2 class="profile-name">Romain Sales</h2>
+                <h4 class="profile-subtitle">Developpeur Front-end / Creative Developer</h4>
             </div>
-            <div class="big-title">
-                <h1>Romain Sales</h1>
-                <h3>Developpeur Web Front End </h3>
+        </div>
+
+        <div class="main-title-box">
+            <h1 class="main-title">Developing ideas, Creating experiences !</h1>
+        </div>
+        <div class="stack-box">
+            <div id="html-box">
+                <img class="dev-icon" src="Images/html.png" alt="HTML logo">
+                <p>HTML5</p>
             </div>
-            <nav class="nav">
-                <button class="btn">Accueil</button>
-                <button class="btn">Formation</button>
-                <button class="btn">Portefolio</button>
-            </nav>
+             <div id="css-box">
+                <img class="dev-icon" src="Images/css.png" alt="CSS logo">
+                <p>CSS3</p>
+            </div>
+            <div id="js-box">
+                <img class="dev-icon" src="Images/javascript.png" alt="JS logo">
+                 <p>JavaScript</p>
+            </div>
+            <div id="python-box">
+                <img class="dev-icon" src="Images/python.png" alt="Pyhtonlogo">
+                <p>Python</p>
+            </div>
+            <div id="sql-box">
+                <img class="dev-icon" src="Images/database.png" alt="SQL logo">
+                <p>SQL</p>
+            </div>
+            <div id="vue-box">
+                <img class="dev-icon" src="Images/vue.png" alt="Vue.js logo">
+                <p>Vue.js</p>
+            </div><div id="react-box">
+                <img class="dev-icon" src="Images/react.png" alt="React logo">
+                <p>React</p>
+            </div>
+            <div id="node-box">
+                <img class="dev-icon" src="Images/Node.js.png" alt="Node logo">
+                <p>Node.js</p>
+            </div>
+            </div>
+        </div>
+        
+    </div>
+
+
+
+    <div class="card-container">
+
+        <div class="card">
+            <div class="top-card">
+                <img class="top-ruban-card" src="Images/bg-img.png" alt="">
+                <img class="logo-card" src="Images/logo-todo-manager.png" alt="Logo To-do Manager project">
+                <h4 class="title-card">To-do Manager</h4>
+            </div>
+            <div class="info-card">
+                <div class="stack-card">
+                    <img class="logo-stack-card" src="Images/vue.png" alt="Logo stack used">
+                </div>
+                <div class="description-box-card">
+                    <p class="description-card">
+                        To-Do Manager est une application web simple de gestion de tâches, développée avec Vue 3 et TypeScript.
+                        Elle permet aux utilisateurs de créer, modifier et supprimer des tâches, d’attribuer des statuts,
+                        et de stocker toutes les données localement dans le navigateur. Le projet a été réalisé comme prototype pour
+                        Code2Work.
+                    </p>
+                </div>
+            </div>
+            <div class="link-box-card">
+                <a class="link-card" href="https://to-do-list-silk-alpha.vercel.app/" rel="noopener noreferrer" target="_blank"> <button class="btn-link-card">Je Decouvre !</button></a>
+            </div>
         </div>
 
-
-    </section>
-
-    <section class="container1">
-
-        <div class="box bio">
-            <h4>Presentation</h4>
-            <p>Actuellement à la recherche d’une alternance en développement web et conception d’applications, je dispose déjà des bases solides acquises
-                 lors d’une première formation. Curieux, rigoureux et motivé, j’apprends rapidement et mets un point d’honneur à produire un travail de qualité.
-                  Intégrer une équipe dynamique me permettrait de consolider mes compétences tout en contribuant activement aux projets de développement.</p>
+        <div class="card">
+            <div class="top-card">
+                <img class="top-ruban-card" src="Images/bg-img.png" alt="">
+                <img class="logo-card" src="Images/logo-productMan.png" alt="Logo To-do Manager project">
+                <h4 class="title-card">Product Man</h4>
+                <img class="coming-soon" src="Images/coming-soon.png" alt="coming soon icon">
+            </div>
+            <div class="info-card">
+                <div class="stack-card">
+                    <img class="logo-stack-card" src="Images/react.png" alt="Logo stack used">
+                    <img class="logo-stack-card" src="Images/Node.js.png" alt="Logo stack used">
+                    <img class="logo-stack-card" src="Images/database.png" alt="Logo stack used">
+                </div>
+                <div class="description-box-card">
+                    <p class="description-card">
+                        Product Man est une application conçue pour gérer une liste de produits. Le backend repose sur Node.js, Express et MongoDB Atlas, tandis que le frontend est développé avec React (Vite) et Material UI. L’interface en mode sombre offre une expérience utilisateur élégante et ergonomique, permettant d’ajouter, modifier, supprimer et afficher via un système de formulaires.
+                    </p>
+                </div>
+            </div>
+            <div class="link-box-card">
+                <a class="link-card" href="https://github.com/sale-sify/Test-LBA"> <button class="btn-link-card">Je Decouvre !</button></a>
+            </div>
         </div>
 
-        <div class="box contact">
-            <h4>Contact</h4>
-            <ul>
-                <li>📞: 07.69.72.53.62</li>
-                <li>📧 : romain.sales1@gmail.com</li>
-                <li>​📲 : <a href="https://www.linkedin.com/in/romainsales1/">Profil LinkedIn</a>​</li>
-                <li>📬 : 15 Cours General Giraud <br>69001 LYON​ </li>
-            </ul>
+        <div class="card">
+            <div class="top-card">
+                <img class="top-ruban-card" src="Images/bg-img.png" alt="">
+                <img class="logo-card" src="Images/logo-eggTimer.png" alt="Logo To-do Manager project">
+                <h4 class="title-card">Egg Timer</h4>
+            </div>
+            <div class="info-card">
+                <div class="stack-card">
+                    <img class="logo-stack-card" src="Images/html.png" alt="Logo stack used">
+                    <img class="logo-stack-card" src="Images/css.png" alt="Logo stack used">
+                    <img class="logo-stack-card" src="Images/javascript.png" alt="Logo stack used">
+                </div>
+                <div class="description-box-card">
+                    <p class="description-card">
+                        Le projet Minuteur à Œuf est une petite application web ludique réalisée en HTML,
+                        CSS et JavaScript, pensée pour allier simplicité et fun. Elle permet de choisir
+                        la cuisson idéale, puis lance un compte à rebours animé. Le design coloré et léger
+                        donne une touche humoristique à un outil du quotidien.
+                    </p>
+                </div>
+            </div>
+            <div class="link-box-card">
+                <a class="link-card" href="https://egg-timer-gamma.vercel.app/"> <button class="btn-link-card">Je Decouvre !</button></a>
+            </div>
         </div>
 
-        <div class="box languages">
-            <h4>Languages connus</h4>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Python</li>
-                <li>MySQL</li>
-                <li>Utilisation de GitHub</li>
-            </ul>
+        <div class="card">
+            <div class="top-card">
+                <img class="top-ruban-card" src="Images/bg-img.png" alt="">
+                <img class="logo-card" src="Images/logo-tickethack.png" alt="Logo To-do Manager project">
+                <h4 class="title-card">TicketHack</h4>
+                <img class="coming-soon" src="Images/coming-soon.png" alt="coming soon icon">
+            </div>
+            <div class="info-card">
+                <div class="stack-card">
+                    <img class="logo-stack-card" src="Images/html.png" alt="Logo stack used">
+                    <img class="logo-stack-card" src="Images/css.png" alt="Logo stack used">
+                    <img class="logo-stack-card" src="Images/javascript.png" alt="Logo stack used">
+                    <img class="logo-stack-card" src="Images/Node.js.png" alt="Logo stack used">
+                    <img class="logo-stack-card" src="Images/database.png" alt="Logo stack used">
+                </div>
+                <div class="description-box-card">
+                    <p class="description-card">
+                        TicketHack est une application web dynamique développée avec HTML, CSS, JavaScript, Node.js et PostgreSQL.
+                        Elle permet de rechercher, filtrer et afficher des trajets de train en temps réel grâce à une
+                        interface claire et réactive. Le backend gère les requêtes et la base de données PostgreSQL pour
+                        stocker les informations sur les trajets, tandis que le frontend mise sur une expérience fluide
+                        et intuitive.
+                    </p>
+                </div>
+            </div>
+            <div class="link-box-card">
+                <a class="link-card" href="https://github.com/sale-sify/Tickethack"> <button class="btn-link-card">Je Decouvre !</button></a>
+            </div>
         </div>
 
-        <div class="box skills">
-            <h4>Soft Skills</h4>
-            <ul>
-                <li><span class="mini-title">Travail en équipe : 🤝</span><br>Collaboration fluide avec les designers, chefs de projet, autres devs.</li>
-                <li><span class="mini-title">Gestion du temps : 🕐</span><br>Priorisation efficace des tâches dans un environnement Agile/Scrum</li>
-                <li><span class="mini-title">Autonomie : 🧠</span><br>Prise d’initiatives et capacité à avancer sans supervision constante.</li>
-                <li><span class="mini-title">Curiosité technique : 🧩</span><br>Veille technologique active, passion pour le code et l’innovation</li>
-                <li><span class="mini-title">Orientation solution : 🎯</span><br>Recherche proactive de solutions plutôt que focus sur les problèmes.</li>
-            </ul>
-            
+        <div class="card">
+            <div class="top-card">
+                <img class="top-ruban-card" src="Images/bg-img.png" alt="">
+                <img class="logo-card" src="Images/logo-casse-brique.png" alt="Logo To-do Manager project">
+                <h4 class="title-card">Breakout like</h4>
+            </div>
+            <div class="info-card">
+                <div class="stack-card">
+                    <img class="logo-stack-card" src="Images/html.png" alt="Logo stack used">
+                    <img class="logo-stack-card" src="Images/css.png" alt="Logo stack used">
+                    <img class="logo-stack-card" src="Images/javascript.png" alt="Logo stack used">
+                </div>
+                <div class="description-box-card">
+                    <p class="description-card">
+                        Breakout like est, comme son nom l'indique, un jeu type breakout classique,
+                        ou il suffit de deplacer un raquette pour faire rebondir un balle et l'emvoyer casser des briques.
+                        Le jeu a ete cree en JS vanilla, utilisant la balise "canvas" du HTML pour y dessiner et faire intereagir
+                        les differents elements du jeu (collision / rebondissement etc...)
+                    </p>
+                </div>
+            </div>
+            <div class="link-box-card">
+                <a class="link-card" href="https://js-casse-brique-game.vercel.app/"> <button class="btn-link-card">Je Decouvre !</button></a>
+            </div>
         </div>
 
-    </section>
-
-
-    <section id="container-formation">
-
-        <div class="autodidacte boxFormation">
-            <h6>Fomation en autodidacte <br>  <span>2024 - 2025</span>.</h6>
-            <p class="ecole">Autodidacte</p>
-            <p class="description">➡️​Création d’un site web responsive en HTML, CSS et JavaScript présentant mon profil professionnel, mes compétences,
-             et mes projets. Le site inclut une navigation fluide, une mise 
-            en page soignée, et des animations interactives ainsi que l’utilisation de webservices pour améliorer l’expérience utilisateur. 
-            <br>Développement d’un jeu de machine à sous avec interface graphique en Python à l’aide de Tkinter. Utilisation de la programmation
-             orientée objet pour gérer les spins, les symboles et le score</p>
-        </div>
-
-        <div class="fleche-droite">
-            <img src="/PFC/Images/fleche-droite.png" alt="Fleche droite parcours Romain Sales">
-        </div>
-
-        <div class="capsule boxFormation">   
-            <h6>Fomation Code Essentials <br> <span>2025</span>.</h6>
-            <p class="ecole">La Capsule</p>   
-            <p class="description">➡️​Formation intensive en conception et développement d’applications web et mobile, ainsi que création de base de 
-            données. invention et création de projets d’application web tel qu’une boîte mail fonctionnelle ou un site de e-commerce.</p>
-          
-        </div>
-
-        <div class="fleche-droite">
-            <img src="/PFC/Images/fleche-droite.png" alt="Fleche droite parcours Romain Sales">
-        </div>
-
-        <div class="etna boxFormation">     
-            <h6>Bachelor en Alternance <br><span>2025 - 2027</span>.</h6>
-            <p class="ecole">ETNA</p>    
-            <p class="description">➡️​Bachelor en conception et développement d’application (Bac +3) en alternance avec un rythme de 96% du temps en entreprise,
-             réalisation de projets complexes en équipes et apprentissage et mise en application de framework JS moderne tel que Angular ou Node.js, entre 
-             beaucoup d’autres.  </p>        
-        </div>
-
-    </section>
-
-
-    
-
-    <section id="portefolio">
-        <div class="container-portefolio">
-
-        </div>
-    </section>
-
+    </div>
 
 
 
 
      
-
-    
-
-
      
 
     <script src="/PFC/index.js"></script>
