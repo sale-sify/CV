@@ -294,7 +294,7 @@ a > img:hover {
         max-width: 768px;
     }
     .header-main {
-        width: 92%;
+        width: 100%;
         height: 15%;
         display: flex;
         text-align: center;
