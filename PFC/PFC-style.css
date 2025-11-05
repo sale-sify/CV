@@ -298,6 +298,8 @@ a > img:hover {
         height: 15%;
         display: flex;
         text-align: center;
+        font-size: 1rem;
+
     }
     .header-left{
         width: 100%;
