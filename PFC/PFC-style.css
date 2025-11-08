@@ -294,11 +294,11 @@ a > img:hover {
 
 
 
-
-
-
-
-
+/* -----------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+-----------------------------------------M O B I L E----------------------------------------
+--------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------- */
 
 
 @media (max-width: 768px) {
@@ -307,6 +307,10 @@ a > img:hover {
         max-width: 768px;
         overflow-x: hidden;
     }
+
+
+    /* --------------------HEADER-------------------- */
+
     .header-main {
         width: 100%;
         max-width: 100%;
@@ -343,7 +347,7 @@ a > img:hover {
     }
 
 
-
+    /* --------------------TOP PAGE-------------------- */
 
     .container-top-page {
         width: 130%;
@@ -367,7 +371,6 @@ a > img:hover {
         position: relative;
         top: 17%;
         left: 7%;
-        
     }
     .links-top-page {
         position: relative;
@@ -382,23 +385,26 @@ a > img:hover {
         width: 40%;
     }
 
+
+    /* --------------------CARDS-------------------- */
+
     .title-card-container {
         height: fit-content;
         margin: 15px;
     }
     .card-container {
-        width: 90%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin: 2rem;
+        align-items: center;
     }
     .card {
         max-width: 90%;
         max-height: 90%;
         width: 90%;
         height: 750px;
-        margin: 2rem;
+        
     }
     .stack-card {
         height: 25%;
