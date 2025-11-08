@@ -288,6 +288,19 @@ a > img:hover {
     box-shadow: inset 2px 2px 4px rgb(216, 61, 0);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 768px) {
     body {
         min-width: 100vw;
@@ -295,22 +308,21 @@ a > img:hover {
         overflow-x: hidden;
     }
     .header-main {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 12%;
+        width: 95%;
+        max-width: 100%;
+        height: 14%;
         background-color: rgb(255, 233, 111);
         border-bottom: 2px solid orangered;
         position: fixed;
         z-index: 100;
+        margin: 0;
     }
     .header-left {
-        min-width: 50%;
+        width: 40%;
         height: 100%;
+        margin: 0;
     }
     .header-title{
-        margin-left: 2rem;
         color: rgb(216, 61, 0);
         font-family: monospace;
     }
@@ -318,15 +330,15 @@ a > img:hover {
         font-size: 1.8rem;
     }
     .header-right {
-        width: 50%;
+        width: 40%;
         height: 100%;
-        display: flex;
-        justify-content: right;
+        margin: 0;
+        text-align: left;
     }
     #logo {
-        width: 15%;
+        width: 70%;
         height: 120%;
-        margin-right: 2rem;
+        margin: 0;
         margin-top: -12px;
     }
 
@@ -334,33 +346,37 @@ a > img:hover {
 
 
     .container-top-page {
-        width: 116%;
-        height: 110%;
-
+        width: 120%;
+        height: 150%;
+        margin: 0;
     }
     .profile-box {
         max-width: 40%;
         margin: 0;
         position: relative;
-        top: 30%;
+        top: 18%;
     }
     .main-title-box {
         display: none;
     }
     .stack-box {
-        width: 40%;
-        height: 65%;
+        width: 70%;
+        height: 40%;
         display: flex;
         flex-wrap: wrap;
         position: relative;
-        bottom: 120px;
-        left: 48%;
+        top: 20%;
+        left: 13%;
+        
     }
     .links-top-page {
         position: relative;
-        bottom: 10%;
-        left: 4%;
-        width: 25%;
+        top: 0%;
+        left: 70%;
+        width: 20%;
+    }
+    .links-top-page > a {
+        width: 100%;
     }
     a > img {
         width: 40%;
@@ -405,7 +421,7 @@ a > img:hover {
     
 }
 
-/* --- Mobiles --- */
+/* --- Mobiles ---
 @media (max-width: 480px) {
     header {
         position: fixed;
@@ -416,19 +432,19 @@ a > img:hover {
     }
 
     .header-left {
-        width: 70%;
+        width: 60%;
+        margin: 0;
     }
     .header-right {
-        width: 40%;
+        width: 25%;
+        margin: 0;
     }
     #logo {
-        width: 50%;
+        width: 60%;
+        margin: 0;
     }
 
-    .container-top-page {
-        width: 100vw;
-        display: block;
-    }
+    
     h1 {
         font-size: 1.3rem;
     }
@@ -469,4 +485,4 @@ a > img:hover {
         font-size: 1rem;
         width: 70%;
     }
-}
+} */
