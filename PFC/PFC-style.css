@@ -425,6 +425,10 @@ a > img:hover {
         width: 50%;
     }
 
+    .container-top-page {
+        width: 100%;
+        display: block;
+    }
     h1 {
         font-size: 1.3rem;
     }
