@@ -412,6 +412,17 @@ a > img:hover {
         top: 0;
         left: 0;
         width: 100vw;
+        height: 15%;
+    }
+
+    .header-left {
+        width: 70%;
+    }
+    .header-right {
+        width: 40%;
+    }
+    #logo {
+        width: 50%;
     }
 
     h1 {
