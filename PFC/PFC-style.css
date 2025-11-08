@@ -346,7 +346,7 @@ a > img:hover {
 
 
     .container-top-page {
-        width: 110vw;
+        width: 100%;
         height: 150%;
         margin: 0;
     }
