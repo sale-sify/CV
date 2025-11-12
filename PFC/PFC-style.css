@@ -466,9 +466,9 @@ a > img:hover {
 /* --- Mobiles --- */
 @media (max-width: 480px) {
     
-    .logo-card {
+    /* .logo-card {
         position: relative;
         left: 0;
         top: -80%;
-    }
+    } */
 }
