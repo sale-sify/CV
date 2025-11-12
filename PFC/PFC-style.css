@@ -433,9 +433,10 @@ a > img:hover {
     .stack-card {
         height: 14%;
         margin-top: 1rem;
+        width: 90%;
     }
     .logo-stack-card {
-        width: 15%;
+        width: 2.5rem;
         height: 80%;
         margin-right: 2%;
     }
@@ -465,5 +466,9 @@ a > img:hover {
 /* --- Mobiles --- */
 @media (max-width: 480px) {
     
-    
+    .logo-card {
+        position: relative;
+        left: 0;
+        top: -80%;
+    }
 }
