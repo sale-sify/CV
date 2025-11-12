@@ -256,12 +256,13 @@ a > img:hover {
 .stack-card {
     height: 25%;
     width: 90%;
+    max-width: max-content;
     display: flex;
     align-items: center;
     gap: 0.8rem;
 }
 .logo-stack-card {
-    height: 90%;
+    width: 15%; 
 }
 .description-box-card {
     margin-left: 0.8rem;
