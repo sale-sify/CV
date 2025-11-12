@@ -382,7 +382,8 @@ a > img:hover {
         flex-wrap: wrap;
         position: relative;
         top: 17%;
-        left: 7%;
+        left: 5%;
+        margin: 0;
     }
     .links-top-page {
         position: relative;
