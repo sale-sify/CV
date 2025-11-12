@@ -41,12 +41,12 @@ h1 {
     height: 100%;
     display: flex;
     justify-content: right;
+    align-items: center;
 }
 #logo {
-    width: 15%;
-    height: 120%;
+    width: 10rem;
+    height: 9rem;
     margin-right: 2rem;
-    margin-top: -12px;
 }
 
 
@@ -101,27 +101,33 @@ a > img:hover {
     width: 25%;
     height: 60%;
     padding: 1rem;
-    text-align: center;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     gap: 0.8rem;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     position: relative;
     left: 70%;
     bottom: 20%;
     border: 4px solid rgb(226, 226, 226);
     border-radius: 30px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: bold;
     color: rgb(252, 240, 240);
 }
 .dev-icon {
-    width: 4rem;
-    margin: 15px;
+    width: 20%;
+    text-align: center;
     transition: 0.3s ease;
+    margin: 5px;
 }
+
+.dev-icon > img {
+    width: 75%
+}
+
 .dev-icon:hover {
     transform: scale(1.2);
 }
@@ -130,7 +136,7 @@ a > img:hover {
 .main-title-box {
     position: absolute;
     top: 25%;
-    left: 17%;
+    left: 7%;
 }
 .main-title {
     display: inline-block;
@@ -303,7 +309,7 @@ a > img:hover {
 
 @media (max-width: 768px) {
     body {
-        min-width: 110vw;
+        min-width: 100vw;
         max-width: 768px;
         overflow-x: hidden;
         margin: 0;
@@ -411,7 +417,11 @@ a > img:hover {
         width: 70%;
         position: relative;
         left: 35%;
-        top: -75%;
+        top: -70%;
+    }
+    .coming-soon {
+        position: relative;
+        top: -120%;
     }
     .logo-card {
         position: relative;
@@ -419,8 +429,8 @@ a > img:hover {
         top: -40%;
     }
     .stack-card {
-        height: 18%;
-        margin-top: 2rem;
+        height: 14%;
+        margin-top: 1rem;
     }
     .logo-stack-card {
         width: 15%;
@@ -432,7 +442,7 @@ a > img:hover {
     }
     .description-box-card {
         margin-top: 0.5rem;
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     .link-box-card {
         margin-top: 5%;
